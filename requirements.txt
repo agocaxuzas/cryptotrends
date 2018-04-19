@@ -15,12 +15,14 @@ itsdangerous==0.24
 Jinja2==2.10
 jsonschema==2.6.0
 jupyter-core==4.4.0
+lxml==4.2.1
 MarkupSafe==1.0
 nbformat==4.4.0
 numpy==1.14.2
 pandas==0.22.0
 plotly==2.5.1
 python-dateutil==2.7.2
+pytrends==4.3.0
 pytz==2018.4
 requests==2.18.4
 six==1.11.0
