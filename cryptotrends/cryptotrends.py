@@ -21,7 +21,8 @@ except KeyError:
 
 coin_list.sort(key=lambda coin: coin[1].lower())
 
-app = dash.Dash()
+app = dash.Dash(__name__)
+server = app.server
 
 app.layout = html.Div([
     html.H1('CryptoTrends'),
